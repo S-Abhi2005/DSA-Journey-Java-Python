@@ -10,5 +10,5 @@ class Solution:
             if j!=len(num)-1:
                 val=num[j+1]-num[i]
                 store=max(val,store)
-                j+=1
+            j+=1
         return store
